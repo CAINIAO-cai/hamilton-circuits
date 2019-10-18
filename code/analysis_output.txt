@@ -1,0 +1,21 @@
+Analysis Results
+----------------
+
+n: number of vertices
+NN: average time(seconds) in order to complete the nearest neighbour algorithm
+NN trials: number of times the algorithm was run for n
+BF: average time(seconds) in order to complete the brute force algorithm
+BF trials: number of times the algorithm was run for n
+
+n  |        NN| NN trials|        BF| BF trials|
+2  |   6.43E-6|    100000|   9.09E-6|    100000|
+3  |   1.31E-5|    100000|   1.71E-5|    100000|
+4  |   1.93E-5|    100000|   5.11E-5|     10000|
+5  |   3.70E-5|     10000|   2.02E-4|      1000|
+6  |   4.37E-5|     10000|   1.15E-3|      1000|
+7  |   5.65E-5|     10000|   7.68E-3|       100|
+8  |   7.71E-5|     10000|   6.06E-2|        10|
+9  |   8.21E-5|     10000|   5.34E-1|        10|
+10 |   1.07E-4|     10000|   5.32E+0|        10|
+11 |   1.21E-4|     10000|   5.87E+1|        10|
+12 |   1.58E-4|     10000|   6.81E+2|        10|

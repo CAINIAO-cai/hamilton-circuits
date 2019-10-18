@@ -1,0 +1,23 @@
+Nearest Neighbour Results
+-------------------------
+N = 7
+
+Distances Matrix(10^3 km):
+         |    entry|       Io| Ganymede| Callisto|    Thebe| Themisto|  Himalia|
+    entry|     0.00| 13311.59| 12150.33| 12229.63| 12780.30| 20488.88| 24160.06|
+       Io| 13311.59|     0.00|  1223.10|  2285.65|   587.33|  7179.32| 11261.55|
+ Ganymede| 12150.33|  1223.10|     0.00|  2291.56|   880.66|  8344.44| 12482.39|
+ Callisto| 12229.63|  2285.65|  2291.56|     0.00|  1818.80|  8677.26| 11931.86|
+    Thebe| 12780.30|   587.33|   880.66|  1818.80|     0.00|  7723.37| 11678.59|
+ Themisto| 20488.88|  7179.32|  8344.44|  8677.26|  7723.37|     0.00|  5413.33|
+  Himalia| 24160.06| 11261.55| 12482.39| 11931.86| 11678.59|  5413.33|     0.00|
+
+Nearest Neighbour Circuit:
+entry -> Ganymede -> Thebe -> Io -> Callisto -> Themisto -> Himalia -> entry
+Total Distance: 54154.62*10^3km
+
+Performance Results
+-------------------
+Repetitions: 10000
+Total time required (s): 4.92E-1
+Average time of one execution (s): 4.92E-5

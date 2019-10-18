@@ -1,0 +1,8 @@
+name, radius(10^3km)
+entry, 13000
+Io, 421.8
+Ganymede, 1070.4
+Callisto, 1882.7
+Thebe, 221.9
+Themisto, 7507
+Himalia, 11460
